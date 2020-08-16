@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.appperson.MainActivity">
+    <item
+        android:id="@+id/action_lista_usuarios"
+        android:orderInCategory="100"
+        android:title="@string/usuarios"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_lista_sair"
+        android:orderInCategory="101"
+        android:title="@string/sair"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_lista_logout"
+        android:orderInCategory="102"
+        android:title="@string/logout"
+        app:showAsAction="never" />
+</menu>

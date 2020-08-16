@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.obdsc.appperson.ListUsuariosActivity">
+
+    <item
+        android:id="@+id/action_cadastrar_usuario"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="ifRoom|withText"
+        android:icon="@drawable/ic_action_new" />
+
+</menu>
